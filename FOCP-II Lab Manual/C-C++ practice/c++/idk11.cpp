@@ -4,13 +4,13 @@ using namespace std;
 class student {
 
     private:
-        int marks;        // only accessible inside this class
+        int marks;       
 
     protected:        
-        int rollno;       // accessible inside class (and derived classes)
+        int rollno;       
 
     public:
-        string name;      // accessible everywhere
+        string name;      
 
         void setdata(int m , int r){
             marks = m;
