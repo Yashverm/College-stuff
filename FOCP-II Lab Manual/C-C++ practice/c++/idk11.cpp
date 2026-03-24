@@ -31,5 +31,5 @@ int main(){
     student s1;
 
     s1.name = "Alice";
-    
+     
 }
