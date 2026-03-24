@@ -4,16 +4,16 @@ using namespace std;
 
 class ArrayTraversal {
 private:
-    vector<int> arr;   // Dynamic array
+    vector<int> arr;   
 
 public:
-    // Function to take input
+   
     void input() {
         int n;
         cout << "Enter number of elements: ";
         cin >> n;
 
-        arr.resize(n);   // Resize vector to required size
+        arr.resize(n);  
 
         cout << "Enter " << n << " elements: ";
         for(int i = 0; i < n; i++) {
@@ -21,7 +21,7 @@ public:
         }
     }
 
-    // Function to traverse and display array
+ 
     void display() {
         cout << "Array elements are: ";
         for(int i = 0; i < arr.size(); i++) {
@@ -32,9 +32,9 @@ public:
 };
 
 int main() {
-    ArrayTraversal obj;   // Create object
-    obj.input();          // Input elements
-    obj.display();        // Traverse & display
+    ArrayTraversal obj;   
+    obj.input();         
+    obj.display();       
 
     return 0;
 }
